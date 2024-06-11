@@ -1,0 +1,95 @@
+{
+  "reviews": [
+    {
+      "id": "1",
+      "title": "내 머릿속 지우개",
+      "content": "완벽한 기승전결!",
+      "author": "홍길동",
+      "category": "로맨스",
+      "likes": 35,
+      "ratings": [
+        5,
+        4,
+        5,
+        3,
+        4,
+        5,
+        2,
+        4,
+        4,
+        4,
+        2,
+        4,
+        4,
+        4,
+        5,
+        1,
+        3,
+        4,
+        5,
+        1
+      ],
+      "averageRating": 3.6,
+      "comments": [
+        {
+          "id": 1,
+          "author": "User1",
+          "content": "완벽해요!"
+        },
+        {
+          "id": 1718115781721,
+          "author": "you",
+          "content": "좋아용!"
+        }
+      ]
+    },
+    {
+      "id": 1718117049333,
+      "title": "ㅁㄴㅇ",
+      "content": "ㄴㅁㅇ",
+      "category": "ㅁㄴㅇ",
+      "author": "ㅁㄴㅇ",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": 1718117221016,
+      "title": "ㅁㄴㅇ",
+      "content": "ㅁㄴㅇ",
+      "category": "ㄴㅁㅇ",
+      "author": "ㄴㅁㅇ",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": 1718118523037,
+      "title": "ㅁㅇㄹ",
+      "content": "ㄴㅇㄹ",
+      "category": "ㄴㅇㄹ",
+      "author": "ㅇㄴ",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": 1718118568057,
+      "title": "ㅁㄴㅇ",
+      "content": "ㅁㄴㅇ",
+      "category": "ㅁㄴㅇ",
+      "author": "ㄴㅁㅇ",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    }
+  ]
+}

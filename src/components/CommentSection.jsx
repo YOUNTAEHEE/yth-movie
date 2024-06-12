@@ -4,7 +4,7 @@ import axios from "axios";
 const CommentSection = ({ comments, reviewId }) => {
   const [newComment, setNewComment] = useState("");
   const [commentList, setCommentList] = useState(comments);
-  const [editMode, setEditMode] = useState(null); // 수정 모드 상태
+  const [editMode, setEditMode] = useState(null); 
   const [editedComment, setEditedComment] = useState("");
 
   const addComment = () => {
@@ -47,11 +47,11 @@ const CommentSection = ({ comments, reviewId }) => {
 
   return (
     <div className="mt-4">
-      <h3 className="text-2xl mb-2">댓글</h3>
+      <h3 className="mb-2 text-2xl">댓글</h3>
       {commentList.map((comment) => (
         <div key={comment.id} className="border-b-[1px] p-2 mb-2 rounded">
           {editMode === comment.id ? (
-            <div className="flex justify-start items-baseline">
+            <div className="flex items-baseline justify-start">
               <input
                 type="text"
                 value={editedComment}
@@ -60,19 +60,19 @@ const CommentSection = ({ comments, reviewId }) => {
               />
               <button
                 onClick={() => updateComment(comment.id)}
-                className="p-2 bg-red-500 text-white rounded mr-2"
+                className="p-2 mr-2 text-white bg-red-500 rounded"
               >
                 수정완료
               </button>
               <button
                 onClick={() => setEditMode(null)}
-                className="p-2 bg-gray-500 text-white rounded"
+                className="p-2 text-white bg-gray-500 rounded"
               >
                 취소
               </button>
             </div>
           ) : (
-            <div className="flex justify-between items-center">
+            <div className="flex items-center justify-between">
               <p>
                 <strong>{comment.author}:</strong> {comment.content}
               </p>
@@ -83,13 +83,13 @@ const CommentSection = ({ comments, reviewId }) => {
                       setEditMode(comment.id);
                       setEditedComment(comment.content);
                     }}
-                    className="p-1 bg-gray-500 text-white rounded mr-2"
+                    className="p-1 mr-2 text-white bg-gray-500 rounded"
                   >
                     수정
                   </button>
                   <button
                     onClick={() => deleteComment(comment.id)}
-                    className="p-1 bg-red-500 text-white rounded"
+                    className="p-1 text-white bg-red-500 rounded"
                   >
                     삭제
                   </button>

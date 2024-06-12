@@ -12,7 +12,7 @@ const CreateReviewPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     const newReview = {
-      id: Date.now(), // ID를 임시로 설정합니다.
+      id: Date.now(), 
       title,
       content,
       category,

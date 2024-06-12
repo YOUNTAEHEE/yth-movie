@@ -5,9 +5,9 @@ import ReviewList from "../components/ReviewList";
 
 const HomePage = () => {
   const [reviews, setReviews] = useState([]);
-  const [viewType, setViewType] = useState("list"); // 'list' or 'card'
+  const [viewType, setViewType] = useState("list"); 
   const [search, setSearch] = useState("");
-  const [sortOption, setSortOption] = useState(""); // 'likes' or 'rating'
+  const [sortOption, setSortOption] = useState(""); 
 
   useEffect(() => {
     axios

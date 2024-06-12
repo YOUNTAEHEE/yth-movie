@@ -3,7 +3,7 @@ import ReviewDetail from '../components/ReviewDetail';
 
 const ReviewDetailPage = () => {
   return (
-    <div className="container mx-auto p-4">
+    <div className="container p-4 mx-auto">
       <ReviewDetail />
     </div>
   );

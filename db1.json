@@ -1,54 +1,353 @@
 {
   "reviews": [
     {
-      "id": "1",
+      "id": "1718194933902",
+      "title": "인셉션",
+      "content": "너무너무 재밌었음! 또 보고 싶음! ",
+      "category": "판타지",
+      "author": "you",
+      "likes": 8,
+      "rating": 0,
+      "comments": [
+        {
+          "id": 1718197305844,
+          "author": "you",
+          "content": "저도 또 보고싶어요"
+        }
+      ],
+      "ratings": [
+        5,
+        3,
+        4,
+        4,
+        4,
+        4,
+        5,
+        0,
+        5,
+        5
+      ],
+      "averageRating": 3.9
+    },
+    {
+      "id": "1718194989010",
       "title": "내 머릿속 지우개",
-      "content": "완벽한 기승전결!",
-      "author": "홍길동",
+      "content": "너무 슬펐음... 또 보기 힘들것 같음.. ",
+      "category": "로맨스 ",
+      "author": "other",
+      "likes": 2,
+      "rating": 0,
+      "comments": [
+        {
+          "id": 1718197321787,
+          "author": "you",
+          "content": "저도 슬펐어요"
+        }
+      ],
+      "ratings": [
+        4,
+        5
+      ],
+      "averageRating": 4.5
+    },
+    {
+      "id": "1718195388552",
+      "title": "그녀가 죽였다",
+      "content": "너무 무서웠어요",
+      "category": "범죄",
+      "author": "you",
+      "likes": 2,
+      "rating": 0,
+      "comments": [
+        {
+          "id": 1718197344225,
+          "author": "you",
+          "content": "저도 무서웠어요"
+        }
+      ],
+      "ratings": [
+        4,
+        3
+      ],
+      "averageRating": 3.5
+    },
+    {
+      "id": "1718195440853",
+      "title": "매드맥스",
+      "content": "와 영상미 엄청 좋았음 ",
+      "category": "판타지",
+      "author": "other",
+      "likes": 2,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        4,
+        4
+      ],
+      "averageRating": 4
+    },
+    {
+      "id": "1718195461519",
+      "title": "소울메이트",
+      "content": "청춘영화! 너무 좋음 ! ",
       "category": "로맨스",
-      "likes": 35,
+      "author": "you",
+      "likes": 2,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        5,
+        4
+      ],
+      "averageRating": 4.5
+    },
+    {
+      "id": "1718195485390",
+      "title": "고질라",
+      "content": "고~질라~ 계속 생각남",
+      "category": "판타지",
+      "author": "other",
+      "likes": 3,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        5,
+        0,
+        5
+      ],
+      "averageRating": 3.3
+    },
+    {
+      "id": "1718195516924",
+      "title": "스텔라",
+      "content": "계속 생각남 또 보고싶음",
+      "category": "일상",
+      "author": "other",
+      "likes": 3,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        1,
+        4,
+        2
+      ],
+      "averageRating": 2.3
+    },
+    {
+      "id": "1718195553342",
+      "title": "서치",
+      "content": "서치, 인상깊었음",
+      "category": "범죄",
+      "author": "you",
+      "likes": 3,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        3,
+        4,
+        5
+      ],
+      "averageRating": 4
+    },
+    {
+      "id": "1718195572147",
+      "title": "매트릭스",
+      "content": "완벽한 영화",
+      "category": "판타지",
+      "author": "other",
+      "likes": 2,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        2,
+        5
+      ],
+      "averageRating": 3.5
+    },
+    {
+      "id": "1718195597524",
+      "title": "헝거게임",
+      "content": "나도 참가해보고싶다. 난 1등 할 수 있어",
+      "category": "판타지",
+      "author": "you",
+      "likes": 1,
+      "rating": 0,
+      "comments": [
+        {
+          "id": 1718197370804,
+          "author": "you",
+          "content": "참가는 무서워요"
+        }
+      ],
+      "ratings": [
+        2
+      ],
+      "averageRating": 2
+    },
+    {
+      "id": "1718195620015",
+      "title": "해리포터",
+      "content": "나도 해리가 되고 싶다",
+      "category": "판타지",
+      "author": "you",
+      "likes": 2,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        5,
+        4
+      ],
+      "averageRating": 4.5
+    },
+    {
+      "id": "1718195649420",
+      "title": "분노의 질주",
+      "content": "분노! 질주! 좋아 가자! ",
+      "category": "범죄",
+      "author": "other",
+      "likes": 1,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        3,
+        3,
+        3,
+        3,
+        5,
+        1,
+        3
+      ],
+      "averageRating": 3
+    },
+    {
+      "id": "1718195698572",
+      "title": "산책",
+      "content": "산책할래요? 두근",
+      "category": "로맨스",
+      "author": "other",
+      "likes": 2,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        2,
+        5
+      ],
+      "averageRating": 3.5
+    },
+    {
+      "id": "1718195732976",
+      "title": "피아니스트",
+      "content": "명작임",
+      "category": "일상",
+      "author": "you",
+      "likes": 3,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        0,
+        5,
+        4
+      ],
+      "averageRating": 3
+    },
+    {
+      "id": "1718195756827",
+      "title": "시드와 낸시",
+      "content": "롹앤롤",
+      "category": "일상",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718195828411",
+      "title": "시네마 천국",
+      "content": "명작임...! ",
+      "category": "일상",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718195845553",
+      "title": "비포시리즈",
+      "content": "다시보고싶음",
+      "category": "로맨스",
+      "author": "other",
+      "likes": 1,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        5
+      ],
+      "averageRating": 5
+    },
+    {
+      "id": "1718195866626",
+      "title": "델마와 루이스",
+      "content": "명작임.",
+      "category": "범죄",
+      "author": "other",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718195908294",
+      "title": "25시",
+      "content": "강아지랑 놀고싶다",
+      "category": "범죄",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718195940772",
+      "title": "위플래쉬",
+      "content": "드럼천재! 나도 천재! 너도 천재! 우리 모두 천재! ",
+      "category": "일상",
+      "author": "you",
+      "likes": 3,
+      "rating": 0,
+      "comments": [],
       "ratings": [
         5,
         4,
-        5,
-        3,
-        4,
-        5,
-        2,
-        4,
-        4,
-        4,
-        2,
-        4,
-        4,
-        4,
-        5,
-        1,
-        3,
-        4,
-        5,
-        1
+        4
       ],
-      "averageRating": 3.6,
-      "comments": [
-        {
-          "id": 1,
-          "author": "User1",
-          "content": "완벽해요!"
-        },
-        {
-          "id": 1718115781721,
-          "author": "you",
-          "content": "좋아용!"
-        }
-      ]
+      "averageRating": 4.3
     },
     {
-      "id": 1718117049333,
-      "title": "ㅁㄴㅇ",
-      "content": "ㄴㅁㅇ",
-      "category": "ㅁㄴㅇ",
-      "author": "ㅁㄴㅇ",
+      "id": "1718195967770",
+      "title": "가디언",
+      "content": "두 배우의 환상의 호흡",
+      "category": "일상",
+      "author": "other",
+      "likes": 1,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        4
+      ],
+      "averageRating": 4
+    },
+    {
+      "id": "1718195999404",
+      "title": "다크나이트",
+      "content": "어둠의 히어로 드디어 재등장",
+      "category": "판타지",
+      "author": "you",
       "likes": 0,
       "rating": 0,
       "comments": [],
@@ -56,11 +355,42 @@
       "averageRating": 0
     },
     {
-      "id": 1718117221016,
-      "title": "ㅁㄴㅇ",
-      "content": "ㅁㄴㅇ",
-      "category": "ㄴㅁㅇ",
-      "author": "ㄴㅁㅇ",
+      "id": "1718196042086",
+      "title": "500일의 섬머",
+      "content": "나쁜 여자... 그녀는 나쁜 여자...",
+      "category": "로맨스",
+      "author": "other",
+      "likes": 1,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        2
+      ],
+      "averageRating": 2
+    },
+    {
+      "id": "1718196068738",
+      "title": "어바웃타임",
+      "content": "로맨스.. 나도 하고 싶다. ",
+      "category": "로맨스",
+      "author": "you",
+      "likes": 2,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        4,
+        4,
+        4,
+        5
+      ],
+      "averageRating": 4.3
+    },
+    {
+      "id": "1718196106689",
+      "title": "노팅힐",
+      "content": "나도 세기의 사랑을 하고 싶다. ",
+      "category": "로맨스",
+      "author": "you",
       "likes": 0,
       "rating": 0,
       "comments": [],
@@ -68,11 +398,11 @@
       "averageRating": 0
     },
     {
-      "id": 1718118523037,
-      "title": "ㅁㅇㄹ",
-      "content": "ㄴㅇㄹ",
-      "category": "ㄴㅇㄹ",
-      "author": "ㅇㄴ",
+      "id": "1718196122923",
+      "title": "트루 로맨스",
+      "content": "진짜 로맨스?!",
+      "category": "로맨스",
+      "author": "other",
       "likes": 0,
       "rating": 0,
       "comments": [],
@@ -80,11 +410,303 @@
       "averageRating": 0
     },
     {
-      "id": 1718118568057,
-      "title": "ㅁㄴㅇ",
-      "content": "ㅁㄴㅇ",
-      "category": "ㅁㄴㅇ",
-      "author": "ㄴㅁㅇ",
+      "id": "1718196149344",
+      "title": "이보다 더 좋을 순 없다. ",
+      "content": "명 연기. ",
+      "category": "일상",
+      "author": "oher",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196182735",
+      "title": "레옹",
+      "content": "100번 봐도 됨",
+      "category": "일상",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196223117",
+      "title": "라이프 오브 파이",
+      "content": "명작입니다. ",
+      "category": "미스터리",
+      "author": "you",
+      "likes": 1,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        4
+      ],
+      "averageRating": 4
+    },
+    {
+      "id": "1718196277794",
+      "title": "로미오와 줄리엣",
+      "content": "멋지다... 남자 배우",
+      "category": "로맨스",
+      "author": "other",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196302758",
+      "title": "원데이",
+      "content": "로맨스는 역시 원데이",
+      "category": "로맨스",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196337609",
+      "title": "타이타닉",
+      "content": "너무 멋진 영화",
+      "category": "로맨스",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196370478",
+      "title": "덤앤더머",
+      "content": "환상의 짝궁",
+      "category": "유머",
+      "author": "other",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196431697",
+      "title": "쇼생크 탈출",
+      "content": "탈출!성공?",
+      "category": "일상",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196454065",
+      "title": "인생은 아름다워",
+      "content": "인생은 정말 아름답지...",
+      "category": "로맨스",
+      "author": "other",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196491356",
+      "title": "죽은 시인의 사회",
+      "content": "나도 저런 스승님 만나고 싶다. ",
+      "category": "일상",
+      "author": "other",
+      "likes": 1,
+      "rating": 0,
+      "comments": [],
+      "ratings": [
+        5
+      ],
+      "averageRating": 5
+    },
+    {
+      "id": "1718196511852",
+      "title": "포레스트 검프",
+      "content": "유쾌하다",
+      "category": "일상",
+      "author": "other",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196537480",
+      "title": "여인의 향기",
+      "content": "두고두고 생각날 영화",
+      "category": "로맨스",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196563806",
+      "title": "가위손",
+      "content": "너무 쓸쓸한 영화",
+      "category": "로맨스",
+      "author": "other",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196590519",
+      "title": "굿윌헌팅",
+      "content": "나도 저런 스승님..",
+      "category": "일상",
+      "author": "other",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196609599",
+      "title": "살인의 추억",
+      "content": "명작임. 꼭 보삼",
+      "category": "범죄",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196648182",
+      "title": "아이엠샘",
+      "content": "굿굿",
+      "category": "일상",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196673316",
+      "title": "피아니스트의 전설",
+      "content": "전설이 될 영화",
+      "category": "일상",
+      "author": "other",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196694288",
+      "title": "나비효과",
+      "content": "나비효과 엄청나다",
+      "category": "판타지",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196718854",
+      "title": "샤인",
+      "content": "우린 항상 이유를 찾아야해. 명대사",
+      "category": "일상",
+      "author": "other",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196742152",
+      "title": "제 8요일",
+      "content": "좋은 영화",
+      "category": "일상",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196771891",
+      "title": "캐치미 이프 유캔",
+      "content": "재밌는 영화 ",
+      "category": "유머",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196799717",
+      "title": "러브액츄얼리",
+      "content": "겨울, 로맨스, 좋음",
+      "category": "로맨스 ",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196822445",
+      "title": "국가대표",
+      "content": "우리는! 국가대표! ",
+      "category": "일상",
+      "author": "other",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196848348",
+      "title": "이프온리",
+      "content": "로맨스다, 진정한 로맨스",
+      "category": "로맨스",
+      "author": "you",
+      "likes": 0,
+      "rating": 0,
+      "comments": [],
+      "ratings": [],
+      "averageRating": 0
+    },
+    {
+      "id": "1718196874200",
+      "title": "식스센스",
+      "content": "유령... 소오름.",
+      "category": "미스터리",
+      "author": "you",
       "likes": 0,
       "rating": 0,
       "comments": [],

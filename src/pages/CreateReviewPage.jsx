@@ -35,10 +35,10 @@ const CreateReviewPage = () => {
 
   return (
     <div className="max-w-2xl mx-auto">
-      <h1 className="text-3xl font-bold mb-4">새 리뷰 작성</h1>
+      <h1 className="mb-4 text-3xl font-bold">새 리뷰 작성</h1>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
-          <label className="block text-gray-700 mb-2" htmlFor="title">
+          <label className="block mb-2 text-gray-700" htmlFor="title">
             제목
           </label>
           <input
@@ -46,25 +46,25 @@ const CreateReviewPage = () => {
             id="title"
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            className="border p-2 rounded w-full"
+            className="w-full p-2 border rounded"
             required
           />
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700 mb-2" htmlFor="content">
+          <label className="block mb-2 text-gray-700" htmlFor="content">
             내용
           </label>
           <textarea
             id="content"
             value={content}
             onChange={(e) => setContent(e.target.value)}
-            className="border p-2 rounded w-full"
+            className="w-full p-2 border rounded"
             rows="6"
             required
           />
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700 mb-2" htmlFor="category">
+          <label className="block mb-2 text-gray-700" htmlFor="category">
             카테고리
           </label>
           <input
@@ -72,12 +72,12 @@ const CreateReviewPage = () => {
             id="category"
             value={category}
             onChange={(e) => setCategory(e.target.value)}
-            className="border p-2 rounded w-full"
+            className="w-full p-2 border rounded"
             required
           />
         </div>
         <div className="mb-4">
-          <label className="block text-gray-700 mb-2" htmlFor="author">
+          <label className="block mb-2 text-gray-700" htmlFor="author">
             작성자
           </label>
           <input
@@ -85,11 +85,11 @@ const CreateReviewPage = () => {
             id="author"
             value={author}
             onChange={(e) => setAuthor(e.target.value)}
-            className="border p-2 rounded w-full"
+            className="w-full p-2 border rounded"
             required
           />
         </div>
-        <button type="submit" className="bg-blue-500 text-white p-2 rounded">
+        <button type="submit" className="p-2 text-white rounded bg-sky-300">
           제출
         </button>
       </form>

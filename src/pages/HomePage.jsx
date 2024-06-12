@@ -32,7 +32,7 @@ const HomePage = () => {
 
   return (
     <div>
-      <div className="mb-4 flex items-center justify-between">
+      <div className="flex items-center justify-between mb-4">
         <input
           type="text"
           placeholder="검색하기"
@@ -44,7 +44,7 @@ const HomePage = () => {
           <select
             value={sortOption}
             onChange={(e) => setSortOption(e.target.value)}
-            className="focus:outline-none border p-2  mr-2"
+            className="p-2 mr-2 border focus:outline-none"
           >
             <option value="">정렬 선택</option>
             <option value="likes">좋아요 순</option>
@@ -52,18 +52,18 @@ const HomePage = () => {
           </select>
           <button
             onClick={() => setViewType("list")}
-            className="mr-2 p-2 bg-sky-300 text-white rounded "
+            className="p-2 mr-2 text-white rounded bg-sky-300 "
           >
             List View
           </button>
           <button
             onClick={() => setViewType("card")}
-            className="p-2 bg-sky-300 text-white rounded"
+            className="p-2 text-white rounded bg-sky-300"
           >
             Card View
           </button>
           <Link to="/create-review">
-            <button className="p-2 bg-green-500 text-white rounded ml-2">
+            <button className="p-2 ml-2 border-[1.5px] text-green-500 border-green-500 rounded">
               글 작성하기
             </button>
           </Link>

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 
 const CreateReviewPage = () => {
   const [title, setTitle] = useState("");
@@ -34,9 +34,9 @@ const CreateReviewPage = () => {
   };
 
   return (
-    <div className="max-w-2xl mx-auto">
+    <div className="relative max-w-2xl mx-auto">
       <h1 className="mb-4 text-3xl font-bold">새 리뷰 작성</h1>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className="relative">
         <div className="mb-4">
           <label className="block mb-2 text-gray-700" htmlFor="title">
             제목
@@ -89,10 +89,16 @@ const CreateReviewPage = () => {
             required
           />
         </div>
-        <button type="submit" className="p-2 text-white rounded bg-sky-300">
+        <button
+          type="submit"
+          className="absolute top-[-45px] right-0 p-2 text-white rounded bg-sky-300"
+        >
           제출
         </button>
       </form>
+      <Link to="/" className="block mt-4 text-center">
+        <button className="bg-gray-300 text-gray-500 p-2 rounded w-[80px]">목록</button>
+      </Link>
     </div>
   );
 };
